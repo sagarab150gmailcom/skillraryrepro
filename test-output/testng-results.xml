@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-30T10:01:10 IST" name="Default suite" finished-at="2022-07-30T10:01:26 IST" duration-ms="16141">
+  <suite started-at="2022-07-30T18:45:05 IST" name="Suite" finished-at="2022-07-30T18:45:56 IST" duration-ms="50766">
     <groups>
     </groups>
-    <test started-at="2022-07-30T10:01:10 IST" name="Default test" finished-at="2022-07-30T10:01:26 IST" duration-ms="16141">
+    <test started-at="2022-07-30T18:45:05 IST" name="Test" finished-at="2022-07-30T18:45:56 IST" duration-ms="50766">
       <class name="scripts.Testcase3">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.Testcase3@212b5695]" started-at="2022-07-30T10:01:10 IST" name="openApp" finished-at="2022-07-30T10:01:19 IST" duration-ms="9152" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.Testcase3@2df9b86]" started-at="2022-07-30T18:45:05 IST" name="openApp" finished-at="2022-07-30T18:45:15 IST" duration-ms="9385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc3()[pri:0, instance:scripts.Testcase3@212b5695]" started-at="2022-07-30T10:01:19 IST" name="tc3" finished-at="2022-07-30T10:01:25 IST" duration-ms="6409" status="FAIL">
+        <test-method signature="tc3()[pri:0, instance:scripts.Testcase3@2df9b86]" started-at="2022-07-30T18:45:15 IST" name="tc3" finished-at="2022-07-30T18:45:23 IST" duration-ms="8616" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <iframe src="https://player.vimeo.com/video/356464956" width="600" height="300" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" cd_frame_id_="f6c42750fc1d4d6df1d25f72cccd7482"></iframe> is not clickable at point (319, 499). Other element would receive the click: <strong>...</strong>
+              <![CDATA[element click intercepted: Element <iframe src="https://player.vimeo.com/video/356464956" width="600" height="300" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" cd_frame_id_="d77b04a91c870bac07f6c7bec79e8ca0"></iframe> is not clickable at point (319, 499). Other element would receive the click: <strong>...</strong>
   (Session info: chrome=103.0.5060.134)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-F7RQNE7', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a17241e264b78182c987cbf32dde8433]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f25f81e53951c50db0af1f1edcffc22]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <iframe src="https://player.vimeo.com/video/356464956" width="600" height="300" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" cd_frame_id_="f6c42750fc1d4d6df1d25f72cccd7482"></iframe> is not clickable at point (319, 499). Other element would receive the click: <strong>...</strong>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <iframe src="https://player.vimeo.com/video/356464956" width="600" height="300" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" cd_frame_id_="d77b04a91c870bac07f6c7bec79e8ca0"></iframe> is not clickable at point (319, 499). Other element would receive the click: <strong>...</strong>
   (Session info: chrome=103.0.5060.134)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-F7RQNE7', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a17241e264b78182c987cbf32dde8433
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f25f81e53951c50db0af1f1edcffc22
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -85,11 +85,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc3 -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Testcase3@212b5695]" started-at="2022-07-30T10:01:25 IST" name="closeApp" finished-at="2022-07-30T10:01:26 IST" duration-ms="498" status="PASS">
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Testcase3@2df9b86]" started-at="2022-07-30T18:45:23 IST" name="closeApp" finished-at="2022-07-30T18:45:24 IST" duration-ms="627" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc3 status=FAILURE method=Testcase3.tc3()[pri:0, instance:scripts.Testcase3@212b5695] output={null}]]]>
+                <![CDATA[[TestResult name=tc3 status=FAILURE method=Testcase3.tc3()[pri:0, instance:scripts.Testcase3@2df9b86] output={null}]]]>
               </value>
             </param>
           </params>
@@ -97,6 +97,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- scripts.Testcase3 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="scripts.Testcase2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.Testcase2@35aea049]" started-at="2022-07-30T18:45:24 IST" name="openApp" finished-at="2022-07-30T18:45:36 IST" duration-ms="11997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2()[pri:0, instance:scripts.Testcase2@35aea049]" started-at="2022-07-30T18:45:36 IST" name="tc2" finished-at="2022-07-30T18:45:43 IST" duration-ms="7177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Testcase2@35aea049]" started-at="2022-07-30T18:45:43 IST" name="closeApp" finished-at="2022-07-30T18:45:44 IST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=Testcase2.tc2()[pri:0, instance:scripts.Testcase2@35aea049] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.Testcase2 -->
+      <class name="scripts.Testcase1">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.Testcase1@7205765b]" started-at="2022-07-30T18:45:44 IST" name="openApp" finished-at="2022-07-30T18:45:51 IST" duration-ms="7635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc1()[pri:0, instance:scripts.Testcase1@7205765b]" started-at="2022-07-30T18:45:51 IST" name="tc1" finished-at="2022-07-30T18:45:56 IST" duration-ms="4399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Testcase1@7205765b]" started-at="2022-07-30T18:45:56 IST" name="closeApp" finished-at="2022-07-30T18:45:56 IST" duration-ms="480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=Testcase1.tc1()[pri:0, instance:scripts.Testcase1@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.Testcase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
